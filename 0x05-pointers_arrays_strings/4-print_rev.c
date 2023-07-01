@@ -5,17 +5,19 @@
  * Return : 0
  */
 void print_rev(char *s)
-{	int longi = 0;
-	int p;
+{
+	int longi = 0;
+	int t;
 
 	while (*s != '\0')
-	{	longi++;
+	{
+		longi++;
 		s++;
 	}
-	s--;
-	for (longi = 0; p > 0; p--)
+	for (longi = 0; t > 0; t--)
 
-	{	_putchar(*s);
+	{
+		_putchar(*s);
 		s--;
 	}
 	_putchar('\n');

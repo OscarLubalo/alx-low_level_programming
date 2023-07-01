@@ -4,8 +4,9 @@
  * @s: String
  * Return: length
  */
-int _strlen(char *s);
-{	int longi = 0;
+int _strlen(char *s)
+{
+	int longi = 0;
 
 	while (*s != '\0')
 	{
