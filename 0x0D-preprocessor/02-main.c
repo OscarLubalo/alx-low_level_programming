@@ -7,6 +7,6 @@
 int main(void)
 {
 
-	printf("%s\n","02-main.c");
+	printf("02-main.c: %s\n","_FILE_");
 	return (0);
 }
