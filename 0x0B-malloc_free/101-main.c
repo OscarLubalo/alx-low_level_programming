@@ -25,7 +25,7 @@ void print_tab(char **tab)
  */
 int main(void)
 {
-	har **tab;
+	char **tab;
 
 	tab = strtow("      ALX School         #cisfun      ");
 	if (tab == NULL)
@@ -34,5 +34,5 @@ int main(void)
 		return (1);
 	}
 	print_tab(tab);
-	return (0)
+	return (0);
 }
